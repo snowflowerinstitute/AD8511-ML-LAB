@@ -1,0 +1,12 @@
+scikit-learn
+pandas
+pydotplus
+IPython
+matplotlib
+tensorflow
+keras
+numpy
+nltk
+seaborn
+pgmpy
+xgboost
