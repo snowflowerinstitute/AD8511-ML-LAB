@@ -2,16 +2,16 @@
 All Programs and their required Datasets
 
 ## Topics
-1. Implement the concept of **decision trees** with suitable data set from real world problem and classify the data set to produce new sample.
-2. Detecting **Spam mails** using Support vector machine
-3. Implement **facial recognition** application with artificial neural network
-4. Study and implement amazon toolkit: **Sagemaker**
-5. Implement **character recognition** using Multilayer Perceptron
-6. Implement the non-parametric **Locally Weighted Regression** algorithm in order to fit data points. Select appropriate data set for your experiment and draw graphs.
-7. Implement **sentiment analysis** using random forest optimization algorithm
-8. Write a program to construct a **Bayesian network** considering medical data. Use this model to demonstrate the diagnosis of heart patients using standard Heart Disease Data Set. You can use Java/Python ML library classes/API.
-9. Choose best machine learning algorithm to implement online **fraud detection**
-10. Mini-project: duh..
+1. Implement the concept of **decision trees** with real world problem and produce new samples. | [Program](DECISION-TREES.py) | [Dataset](datasets/1-golf.csv)
+2. Detecting **Spam mails** using Support vector machine.| [Program](SPAM-EMAIL-SVM.py) | [Dataset](datasets/2-spam_emails.csv)
+3. Implement **facial recognition** application with artificial neural network. | [Program](FACIAL-RECOGINITION.py) | [Dataset](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+4. Study and implement amazon toolkit: **Sagemaker**. | [Program](https://github.com/andrew264) | [Dataset](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+5. Implement **character recognition** using Multilayer Perceptron. | [Program](CHARACTER-RECOGNITION-MLP.py) | [Dataset](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+6. Implement the non-parametric **Locally Weighted Regression** algorithm in order to fit data points. | [Program](WEIGHTED-REGRESSION.py) | [Dataset](datasets/6-weighted-regression.csv)
+7. Implement **sentiment analysis** using random forest optimization algorithm. | [Program](SENTIMENT_ANALYSIS.py) | [Dataset](datasets/7-sentiment-analysis.csv)
+8. Write a program to construct a **Bayesian network** considering medical data (Heart Disease).| [Program](BAYESIAN-NETWORK.py) | [Dataset](datasets/8-bayesian-network.csv)
+9. Choose best machine learning algorithm to implement online **fraud detection**| [Program](FRAUD-DETECTION.py) | [Dataset](datasets/9-fraud-detection.csv)
+10. Mini-project: duh..| [Program](https://www.youtube.com/watch?v=dQw4w9WgXcQ) | [Dataset](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## Side Notes
-"datasets/9-fraud-detection.csv" is a _conker_ dataset, you can find the original dataset [here](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+"[**datasets/9-fraud-detection.csv**](https://github.com/snowflowerinstitute/AD8511-ML-LAB/raw/master/datasets/9-fraud-detection.csv)" click to download if you are lazy to clone the repo properly.
