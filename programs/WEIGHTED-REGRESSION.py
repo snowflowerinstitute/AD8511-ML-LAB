@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
-import pandas as pd
 import numpy as np
+import pandas as pd
 
 
 def kernel(point, X, k):
@@ -26,7 +26,7 @@ def local_weight_regression(X, y, k):
 
 
 # load data points
-data = pd.read_csv("datasets/6-weighted-regression.csv")
+data = pd.read_csv("../datasets/6-weighted-regression.csv")
 bill = np.array(data.total_bill)
 tip = np.array(data.tip)
 

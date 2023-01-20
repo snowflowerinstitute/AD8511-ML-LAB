@@ -1,9 +1,9 @@
 import pandas as pd
-from sklearn.svm import SVC
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
+from sklearn.svm import SVC
 
-data = pd.read_csv('datasets/2-spam_emails.csv')
+data = pd.read_csv('../datasets/2-spam_emails.csv')
 X = data['EmailText'].values
 y = data['Label'].values
 
@@ -16,4 +16,4 @@ X_test = cv.transform(X_test)
 classifier = SVC()
 classifier.fit(X_train, y_train)
 accuracy = classifier.score(X_test, y_test)
-print(f"Accuracy: {accuracy*100} %")
+print(f"Accuracy: {accuracy * 100} %")

@@ -13,7 +13,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 
 # Reading the dataset
-dataset = pd.read_csv('datasets/7-sentiment-analysis.csv')
+dataset = pd.read_csv('../datasets/7-sentiment-analysis.csv')
 
 # Preprocessing
 nltk.download('stopwords')

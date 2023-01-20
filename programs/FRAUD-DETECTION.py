@@ -4,7 +4,7 @@ from sklearn.metrics import f1_score
 from sklearn.model_selection import train_test_split
 from xgboost import XGBClassifier
 
-data = pd.read_csv("datasets/9-fraud-detection.csv")
+data = pd.read_csv("../datasets/9-fraud-detection.csv")
 total_transactions = len(data)
 normal = len(data[data.Class == 0])
 fraudulent = len(data[data.Class == 1])

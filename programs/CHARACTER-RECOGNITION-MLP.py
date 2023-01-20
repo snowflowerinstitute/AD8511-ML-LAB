@@ -1,6 +1,6 @@
 from keras.datasets import mnist
-from keras.models import Sequential
 from keras.layers import Dense
+from keras.models import Sequential
 from keras.utils import np_utils
 
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
