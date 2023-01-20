@@ -16,4 +16,4 @@ All Notebooks/Programs and required Datasets
 ## Side Notes
 "[**datasets/9-fraud-detection.csv**](https://github.com/snowflowerinstitute/AD8511-ML-LAB/raw/master/datasets/9-fraud-detection.csv)" click to download if you are lazy to clone the repo properly.
 
-_[Decision Trees](DECISION-TREES.ipynb)_ may throw `InvocationException: GraphViz's executables not found` error. Install graphviz with terminal command `conda install -c python-graphviz` and restart jupyter notebook.
+_[Decision Trees](DECISION-TREES.ipynb)_ may throw `InvocationException: GraphViz's executables not found` error. Install graphviz with terminal command `conda install python-graphviz` and restart jupyter notebook.
